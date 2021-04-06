@@ -286,10 +286,11 @@ p.copyright {
 }
 
 #top-menu.navbar-default .navbar-nav li:hover {
-    border-bottom: 2px #51dde97 solid;
+    border-bottom: 2px #02245a solid;
     transition: all 0.5s;
-    background: #51dde9;
+    background: #02245a;
     color: #fff;
+    border-radius: 5px;
 }
 
 #top-menu.navbar-default .navbar-nav li:hover>a {
@@ -319,13 +320,13 @@ p.copyright {
 }
 
 #top-menu.navbar-default .navbar-nav ul li:first-child {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 #top-menu.navbar-default .navbar-nav ul li:last-child {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 #top-menu.navbar-default .navbar-nav ul li {
@@ -335,7 +336,7 @@ p.copyright {
     z-index: 2;
     position: relative;
     list-style: none;
-    background: #fff;
+    background: #0F1E34;
 }
 
 #top-menu.navbar-default .navbar-nav ul a {
@@ -409,7 +410,7 @@ p.copyright {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff !important;
-    /*background-color: rgba(59, 62, 138, 1);*/
+    background-color: rgba(15, 30, 52, 1);
     font-weight: 400;
 }
 
@@ -4892,7 +4893,7 @@ object {
 
 .col-about-us i {
     font-size: 67px;
-    color: #51dde9;
+    color: #0F1E34;
     font-weight: 100;
     margin-bottom: 40px;
 }
@@ -4915,13 +4916,13 @@ object {
 -----------------*/
 
 #why-choose-us {
-    padding: 80px 0 0;
+    padding: 50px 0 0;
     color: #fff;
     text-align: center;
 }
 
 #why-choose-us .section-title {
-    background: #51dde9;
+    background: #4B98DC;
     padding: 60px 0;
     margin-bottom: 110px;
 }
@@ -4931,7 +4932,7 @@ object {
     display: inline-block;
     width: 70px;
     height: 70px;
-    background: #51dde9;
+    background: #4B98DC;
     border-radius: 5px;
     position: relative;
     margin-bottom: -90px;
@@ -5301,7 +5302,7 @@ object {
 .services-block i {
     text-align: center;
     display: inline-block;
-    background: #51dde9;
+    background: #0F1E34;
     color: #fff;
     font-size: 24px;
     width: 70px;
@@ -5422,7 +5423,7 @@ object {
 #clients-block .owl-theme .owl-controls.clickable .owl-page:hover span {
     filter: Alpha(Opacity=100);
     opacity: 1;
-    background: #fff;
+    background: #337ab7;
 }
 
 #clients-block .owl-theme .owl-controls .owl-page.active span {
