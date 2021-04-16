@@ -482,7 +482,7 @@ p.copyright {
 }
 
 .cart-notify i span {
-    background: #51dde9;
+    background: #4B98DC;
     font-size: 12px;
     padding: 2px 5px;
     border-radius: 50%;
@@ -495,6 +495,12 @@ p.copyright {
 
 
 /* 2.3 Buttons */
+
+.btn-info {
+    color: #ffffff;
+    background-color: #4B98DC;
+    border-color: #4B98DC;
+}
 
 .btn {
     display: inline-block;
@@ -549,24 +555,24 @@ fieldset[disabled] .btn {
 }
 
 .btn-outline-secondary {
-    color: #3a8cf7;
-    border: 2px #3a8cf7 solid;
+    color: #4B98DC;
+    border: 2px #4B98DC solid;
     border-radius: 30px;
     background-color: transparent;
     opacity: 1;
 }
 
 .btn-outline-success {
-    color: #43d29e;
-    border: 2px #43d29e solid;
+    color: #4B98DC;
+    border: 2px #4B98DC solid;
     border-radius: 30px;
     background-color: transparent;
     opacity: 1;
 }
 
 .btn-outline-info {
-    color: #32cdda;
-    border: 2px #32cdda solid;
+    color: #4B98DC;
+    border: 2px #4B98DC solid;
     border-radius: 30px;
     background-color: transparent;
     opacity: 1;
@@ -605,8 +611,8 @@ fieldset[disabled] .btn {
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    color: #3a8cf7;
-    border: 2px #3a8cf7 solid;
+    color: #4B98DC;
+    border: 2px #4B98DC solid;
     background-color: transparent;
 }
 
@@ -627,9 +633,9 @@ fieldset[disabled] .btn {
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    color: #32cdda;
+    color: #4B98DC;
     background-color: transparent;
-    border: 2px #32cdda solid;
+    border: 2px #4B98DC solid;
 }
 
 .btn-outline-warning:hover,
