@@ -5016,7 +5016,7 @@ object {
 }
 
 #company-counter .row {
-    position: relative;
+    position: bottom-footer;
     z-index: 9;
 }
 
