@@ -134,30 +134,69 @@
         <div class="container">
             <div class="row wow fadeInUp">
                 <!--blog posts container-->
-                <div class="col-md-offset-3 col-md-6 page-block" style="padding:80px 0;">
-                    <form style="padding-bottom:80px">
-                        <div class="form-group">
-                            <label for="exampleInputName">Name</label>
-                            <input type="email" class="form-control" id="exampleInputName" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputMessage">Message</label>
-                            <textarea placeholder="Add your message"></textarea>
-                        </div>
-                        <div class="checkbox checkbox-success">
-                            <input type="checkbox" value="yes" checked="">
-                            <label> I would like to get awesome newsletter.</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="col-md-offset-2 col-md-6 page-block" style="padding:80px 0;">
+                    <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSd0wxoGXp62WOF7gLSdiFJnqJ4lpPOqa1xIkBAhUMAdLyoEeg/viewform?embedded=true">
+                        <label for="entry.133601104">Name *</label>
+                        <input type="text" id="fname" name="entry.133601104" style="	
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        resize: 100px;">
+                        <br><br>
+                        <label for="entry.42402142">Email *</label>
+                        <input type="text" id="email" name="entry.42402142" style="	
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        resize: 100px;">
+                        <br><br>
+                        <label for="entry.1212008043">Subject *</label>
+                        <input type="text" id="subject" name="entry.1212008043" style="	
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        resize: 100px;">
+                        <br><br>
+                        <label for="entry.1415435001">Your Message </label>
+                        <textarea type="text" id="message" name="entry.1415435001" rows="5" cols="84" style="	
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                        resize: 100px;">
+                    </textarea>
+
+                        <input type="submit" value="SEND MESSAGE" style="background-color: #4B98DC; color: white;;">
                     </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){}"></iframe>
+                    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+
+                    <script type="text/javascript">
+                        $('#gform').on('submit', function(e) {
+                            $('#gform *').fadeOut(2000);
+                            $('#gform').prepend('Your message has been sent. Thank you for messaging us!');
+                        });
+                    </script>
 
                     <!--blog posts container-->
                 </div>
@@ -216,9 +255,9 @@
                 <div class="col-md-2 col-sm-4 col-xs-4 root-widget">
                     <h6>Our Team</h6>
                     <ul>
-                        <li><a href="#">John Aresgado</a></li>
-                        <li><a href="#">Rhea Mariano</a></li>
-                        <li><a href="#">Kenneth Sevilla</a></li>
+                        <li><a href="#">John </a></li>
+                        <li><a href="#">Rhea </a></li>
+                        <li><a href="#">Kenneth </a></li>
                     </ul>
                 </div>
 
